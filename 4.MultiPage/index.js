@@ -19,7 +19,7 @@ function requestHandler(req,res){
         
         default:
             filePath='./404.html'
-            bre
+
     }
 
     fs.readFile(filePath,function(err,data){
